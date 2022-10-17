@@ -10,10 +10,10 @@ Gem::Specification.new do |s|
     "https://rubygems.org/gems/hola"
   s.license       = "MIT"
   s.add_dependency('rspec')
-  s.add_dependency "rspec-rails", "~> 4.0"
-  s.add_dependency('activesupport', '5.0.0')
-  s.add_dependency('activerecord', '5.0.0')
-  s.add_dependency('actionpack', '5.0.0')
+  s.add_dependency "rspec-rails"
+  s.add_dependency('activesupport', '5.1.6')
+  s.add_dependency('activerecord', '5.1.6')
+  s.add_dependency('actionpack', '5.1.6')
   s.add_dependency('bigdecimal', '1.3.5')
   s.add_dependency('rails-observers')
 end
